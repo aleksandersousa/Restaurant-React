@@ -2,10 +2,8 @@ import React from 'react';
 
 import './SpecialMenu.css';
 
-const SpecialMenu = () => (
-  <div>
-    SpecialMenu
-  </div>
-);
+function SpecialMenu() {
+  return <div>SpecialMenu</div>;
+}
 
 export default SpecialMenu;

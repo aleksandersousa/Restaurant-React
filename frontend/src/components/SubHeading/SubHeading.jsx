@@ -1,9 +1,7 @@
 import React from 'react';
 
-const SubHeading = () => (
-  <div>
-    SubHeading
-  </div>
-);
+function SubHeading() {
+  return <div>SubHeading</div>;
+}
 
 export default SubHeading;

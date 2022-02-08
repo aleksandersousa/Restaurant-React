@@ -4,11 +4,7 @@ module.exports = {
     es2021: true,
     jest: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['plugin:react/recommended', 'airbnb', 'plugin:prettier/recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -24,10 +20,7 @@ module.exports = {
         extensions: ['.js', '.jsx'],
       },
     ],
-    'prettier/prettier': [
-      'error',
-      { singleQuote: true, arrowParens: 'avoid', printWidth: 80 },
-    ],
+    'prettier/prettier': ['error', { singleQuote: true, arrowParens: 'avoid', printWidth: 100 }],
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
     'react/jsx-one-expression-per-line': 'off',
