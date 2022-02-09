@@ -28,6 +28,7 @@ module.exports = {
     'react/prop-types': 'off',
     'react/jsx-one-expression-per-line': 'off',
     'react/no-unstable-nested-components': 'off',
+    'react/no-unescaped-entities': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
     'jsx-a11y/no-noninteractive-element-interactions': 'off',
     'global-require': 'off',
