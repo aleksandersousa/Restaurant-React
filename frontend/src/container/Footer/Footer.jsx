@@ -1,9 +1,11 @@
-import React from 'react';
-
 import './Footer.css';
+import { FooterOverlay, Newsletter } from '../../components';
 
-function Footer() {
-  return <div>Footer</div>;
+export default function Footer() {
+  return (
+    <div className="app__footer section__padding">
+      <FooterOverlay />
+      <Newsletter />
+    </div>
+  );
 }
-
-export default Footer;
