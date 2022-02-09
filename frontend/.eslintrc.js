@@ -20,7 +20,10 @@ module.exports = {
         extensions: ['.js', '.jsx'],
       },
     ],
-    'prettier/prettier': ['error', { singleQuote: true, arrowParens: 'avoid', printWidth: 100 }],
+    'prettier/prettier': [
+      'error',
+      { singleQuote: true, arrowParens: 'avoid', printWidth: 90 },
+    ],
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
     'react/jsx-one-expression-per-line': 'off',
